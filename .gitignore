@@ -1,0 +1,9 @@
+# This .gitignore file should be placed at the root of your web project directory
+
+# Adobe file
+*.ai
+*.psd
+*.psb
+
+
+
