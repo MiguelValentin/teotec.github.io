@@ -2230,7 +2230,7 @@ function slider() {
             return " <div class=\"swiper-slide\">\n" +
                 "                    <div class=\"d-flex a-item-center h-100\">\n" +
                 "                        <div class=\"content-box-next\">\n" +
-                "                            <span>Next</span>\n" +
+                "                            <span>SIGUIENTE</span>\n" +
                 "                            <h3 class=\"title-next\">" + $title + "</h3>\n" +
                 "                            <div class=\"metas\">\n" + $cat +
                 "                            </div>\n" +
