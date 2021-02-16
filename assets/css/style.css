@@ -1686,7 +1686,7 @@ a.link-hover:hover {
 
 @media only screen and (max-width:767px) {
     .title {
-        font-size: 55px
+        font-size: 50px
     }
 }
 
@@ -1699,7 +1699,7 @@ a.link-hover:hover {
 
 @media only screen and (max-width:400px) {
     .title {
-        font-size: 40px
+        font-size: 35px
     }
 }
 
@@ -6073,7 +6073,7 @@ a:active, a:hover {
 .facts .facts-inner .fact-item .box-number .number {
     color: #fff;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 65px;
     line-height: 0.9;
     letter-spacing: 2px
 }
