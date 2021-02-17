@@ -2502,7 +2502,7 @@ a:active, a:hover {
 }
 
 .site-header .inner-header .main-logo img {
-    height: 40px
+    height: 50px
 }
 
 .site-header .inner-header .main-logo .dark-logo {
@@ -6061,7 +6061,7 @@ a:active, a:hover {
 }
 
 .facts .facts-inner .fact-item .box-number {
-    padding: 30px 20px
+    padding: 30px 10px
 }
 
 @media only screen and (max-width:767px) {
@@ -6073,7 +6073,7 @@ a:active, a:hover {
 .facts .facts-inner .fact-item .box-number .number {
     color: #fff;
     font-weight: bold;
-    font-size: 65px;
+    font-size: 60px;
     line-height: 0.9;
     letter-spacing: 2px
 }
@@ -8207,7 +8207,7 @@ header .header-master.header-half .social-network-box {
 }
 
 .main-slider .box-next, .main-slider .description {
-    height: 120px;
+    height: 0px;
     width: 40%;
     bottom: 0;
     max-width: 350px
