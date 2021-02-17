@@ -8241,14 +8241,14 @@ header .header-master.header-half .social-network-box {
 @media only screen and (max-width:767px) {
     .main-slider .box-next {
         width: 30%;
-        height: 100px
+        height: 0px
     }
 }
 
 @media only screen and (max-width:575px) {
     .main-slider .box-next {
         width: 40%;
-        height: 100px
+        height: 0px
     }
 }
 
