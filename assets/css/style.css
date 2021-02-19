@@ -63,31 +63,6 @@
     background-repeat: no-repeat
 }
 
-.v-middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)
-}
-
-.v-middle-horizontal {
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translate(-50%, 0);
-    -ms-transform: translate(-50%, 0);
-    transform: translate(-50%, 0)
-}
-
-.v-middle-vertical {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%)
-}
-
 .background-main {
     background-color: #000
 }
@@ -1002,68 +977,6 @@ body.v-light:not(.no-light) {
 .dsn-arrow [data-cursor=next]:not(.slick-slider) {
     right: 0;
     left: auto
-}
-
-.preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 99999;
-    background: #000
-}
-
-.preloader .preloader-before {
-    top: 0
-}
-
-.preloader .preloader-after {
-    bottom: 0
-}
-
-.preloader .percent {
-    position: absolute;
-    font-weight: 700;
-    letter-spacing: 3px;
-    font-size: 16px;
-    color: #7934f4;
-    top: -25px
-}
-
-.preloader .title {
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-    line-height: 0.9;
-    letter-spacing: 10px
-}
-
-.preloader .title .text-strok {
-    color: transparent;
-    -webkit-text-stroke: 1px #fff
-}
-
-.preloader .title .text-fill {
-    color: #fff;
-    position: absolute;
-    left: 0;
-    -webkit-clip-path: inset(100.09% 0% 0% 0%);
-    clip-path: inset(100.09% 0% 0% 0%)
-}
-
-.preloader .preloader-bar {
-    position: absolute;
-    width: 100%;
-    height: 5px;
-    top: 0;
-    background: #1d1d1d
-}
-
-.preloader .preloader-bar .preloader-progress {
-    width: 0;
-    height: 100%;
-    background: #7934f4
 }
 
 .view-demo {
@@ -3048,7 +2961,8 @@ a:active, a:hover {
         display: inline-block;
         margin-left: 30px;
         margin-bottom: 0;
-        font-weight: 700
+        font-weight: 700;
+        padding: 15px 0px 15px 0px
     }
     .classic-menu .site-header .extend-container .main-navigation ul.extend-container>li:first-of-type {
         margin-left: 0
@@ -4728,7 +4642,7 @@ a:active, a:hover {
     width: 0;
     height: 100%;
     background-color: #7934f4;
-    background-image: url("../img/pattern.png");
+    background-image: url("../img/pattern.webp");
     border-radius: 4px
 }
 
@@ -7370,9 +7284,6 @@ a:active, a:hover {
     }
 }
 
-.header-project .v-middle-horizontal .intro-project {
-    width: 100%
-}
 
 .header-project.justify-content-center .intro-project, .header-project.text-center .intro-project {
     width: 100%
